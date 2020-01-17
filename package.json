@@ -1,0 +1,61 @@
+{
+  "name": "training-react-project-6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "clsx": "^1.0.4",
+    "node-sass": "^4.12.0",
+    "owl.carousel2": "^2.2.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.0",
+    "react-scripts": "3.1.2",
+    "react-slick": "^0.25.2",
+    "reactstrap": "^8.0.1",
+    "redux-saga": "^1.1.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-redux-saga": "^1.1.0",
+    "prettier": "^1.18.2"
+  }
+}

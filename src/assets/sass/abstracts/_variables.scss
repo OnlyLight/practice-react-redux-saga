@@ -1,0 +1,131 @@
+// ======================================================
+// Abstracts :: Variables
+// ======================================================
+
+// Paths
+$path-image: '../images';
+$path-fonts: '../fonts';
+
+// Fonts
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('../../fonts/TimesNewerRoman/TimesNewerRoman-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Times New Roman-Bold-Italic';
+  src: url('../../fonts/TimesNewerRoman/TimesNewerRoman-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'UTM Caviar';
+  src: url('../../fonts/UTM Caviar.ttf');
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../../fonts/MYRIADPRO-REGULAR.OTF') format('otf');
+}
+
+@font-face {
+  font-family: 'OpenSan Semibold';
+  src: url('../../fonts/OpenSans-Semibold.ttf') format('otf');
+}
+
+// >> Font-family
+$font-family-common: 'Times New Roman', sans-serif;
+$font-family-base : 'Hiragino Sans', 'Noto Sans Japanese', 'Yu Gothic', 'Meiryo', 'Hiragino Kaku Gothic Pro', '游ゴシック', 'メイリオ', 'MS ゴシック', 'sans-serif';
+$font-roboto: 'Roboto', sans-serif;
+$font-tags: 'Open Sans', sans-serif;
+$font-utm: 'UTM Caviar', sans-serif;
+$font-search: 'Myriad Pro', sans-serif;
+$font-info-contact: 'Arial', sans-serif;
+$font-info-signup: 'OpenSan Semibold', sans-serif;
+/* stylelint-disable */
+$font-fontawesome: FontAwesome;
+/* stylelint-enable */
+// >> Font-size
+$font-size-reponsive-tab : 8px;
+$font-size-xsmall : 10px;
+$font-size-tiny : 11px;
+$font-size-small  : 12px;
+$font-size-xbase  : 13px;
+$font-size-base   : 14px;
+$font-size-medium : 16px;
+$font-size-large  : 18px;
+$font-size-xlarge  : 20px;
+$font-size-xxlarge  : 21px;
+$font-size-product-title : 25px;
+$font-size-tab-detail : 28px;
+$font-size-main-content-blog : 30px;
+$font-size-xxxlarge  : 34px;
+$font-size-wine  : 47px;
+$font-size-xxxxlarge  : 72px;
+// >> Font-weight
+$font-weight-light: 300;
+$font-weight-base : 400;
+$font-weight-bold : 600;
+
+// Borders
+$border-radius-small : 2px;
+$border-radius-base  : 4px;
+$border-radius-medium: 8px;
+
+// z-index
+$z-indexes: (
+  base    : 1,
+  under   : -1,
+  modal   : 1001,
+  sidebar : 1000
+);
+
+// colors
+$colors-yellow-orange: #d8a54c;
+$colors-yellow-orange-2: #e6ae48;
+$colors-yellow-orange-3: #e7b14f;
+$colors-yellow-orange-4: #f26522;
+$colors-gray-1: #7f7f7f;
+$colors-gray-2: #d6d6d6;
+$colors-gray-3: #787878;
+$colors-gray-4: #818181;
+$colors-gray-5: #e8e8e8;
+$colors-gray-6: #8e8e8e;
+$colors-gray-7: #c1c1c1;
+$colors-gray-8: #a7a7a7;
+$colors-gray-9: #aeaeae;
+$colors-gray-10: #666;
+$colors-gray-11: #888;
+$colors-gray-12: #fafafa;
+$colors-gray-13: #ddd;
+$colors-gray-14: #e7e7e7;
+$colors-gray-15: #e3e3e3;
+$colors-black-1: #000;
+$colors-black-2: #494949;
+$colors-black-3: #bebebe;
+$colors-black-4: #e6e6e6;
+$colors-black-5: #c1c1c1;
+$colors-black-6: #737373;
+$colors-black-7: #c5c5c5;
+$colors-black-8: #030102;
+$colors-black-9: #9197a3;
+$colors-black-10: #303030;
+$colors-black-11: #212121;
+$colors-black-12: #e9e9e9;
+$colors-black-13: #f1f1f1;
+$colors-black-14: #e1e1e1;
+$colors-black-15: #444;
+$colors-black-16: #202020;
+$colors-black-17: #7d7d7d;
+$colors-white: #fff;
+$colors-red-1: #9c0001;
+$colors-blue-1: #24c5d9;
+
+// Width
+$min-width-form: 224px;
+$max-height-form: 20px;
+$max-height-header: 33.6px;
+$min-width-dropdown: 1280px; // 80rem
+$min-width-dropdown-pc: 944px; // 59rem
+$min-width-dropdown-tablet: 900px;
+$min-width-dropdown-phone: 400px; // 25rem
+$min-width-header-main: 160px; // 10rem

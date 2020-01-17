@@ -1,0 +1,51 @@
+// ======================================================
+// Base :: Global like html, body, img, a, ul
+// ======================================================
+
+body {
+  font-size: 14px;
+  font-family: $font-family-common;
+  font-weight: $font-weight-light;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  color: $blue;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: 0;
+    box-shadow: none;
+    text-decoration: none;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+input,
+input:focus,
+button,
+button:focus,
+textarea {
+  outline: 0;
+}
+
+input[type='number'] {
+  /* stylelint-disable */
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* stylelint-enable */
+}

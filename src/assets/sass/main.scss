@@ -1,0 +1,60 @@
+// We architecting this project follow as the "7-1 Pattern" (7 folders, 1 file)
+// For more detail about this pattern
+// (https://sass-guidelin.es/#the-7-1-pattern)
+
+// Font fallback for Windows, Linux
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400|Open+Sans');
+
+// 1. Vendors
+// ----------
+// https://getbootstrap.com/docs/4.0/getting-started/theming/#sass
+// Need vendors go first because we inherit all of sass files of Bootstrap 4
+@import 'bootstrap/scss/bootstrap-grid';
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'bootstrap/scss/bootstrap';
+@import 'slick-carousel/slick/slick.scss';
+@import 'slick-carousel/slick/slick-theme.scss';
+
+// 2. Abstracts
+// ------------
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+
+// 3. Base
+// -------
+@import 'base/global';
+@import 'base/typography';
+@import 'base/images';
+
+// 4. Layout
+// ---------
+@import 'layout/header';
+@import 'layout/footer';
+
+// 5. Components
+// -------------
+@import 'components/table';
+@import 'components/breadcrumb';
+@import 'components/post';
+
+// 6. Pages
+// --------
+@import 'pages/home';
+@import 'pages/product';
+@import 'pages/detail';
+@import 'pages/intro';
+@import 'pages/contact';
+@import 'pages/404';
+@import 'pages/login';
+@import 'pages/sign-up';
+@import 'pages/cart';
+@import 'pages/address';
+@import 'pages/order';
+@import 'pages//blog';
+@import 'pages//blog-detail';
+
+// 7. Themes
+// ---------
+// We just have only 1 theme in this project

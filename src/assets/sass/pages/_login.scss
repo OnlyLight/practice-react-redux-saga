@@ -1,0 +1,98 @@
+// ======================================================
+// Pages :: Login
+// ======================================================
+
+.section-login {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+  }
+
+  &__title {
+    position: relative;
+    text-transform: uppercase;
+    @include arrow-icon(-25px, 0);
+  }
+
+  &__btn {
+    @include button-add(0);
+    padding: 10px 46px;
+  }
+
+  &__middle {
+    padding: 40px;
+    margin-bottom: 123px;
+    border: 1px solid $colors-black-12;
+
+    &__title {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: $font-size-large;
+    }
+
+    &__paragraph {
+      margin-bottom: 44px;
+      color: $colors-black-1;
+      font-family: $font-search;
+    }
+
+    &__form-control {
+      display: flex;
+      margin-bottom: 30px;
+
+      @include media-breakpoint-down(sm) {
+        flex-wrap: wrap;
+      }
+
+      &:nth-child(2) {
+        margin-bottom: 18px;
+      }
+
+      &:nth-child(3) {
+        margin-bottom: 16px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__item {
+      user-select: none;
+
+      &:first-child {
+        flex: 10%;
+      }
+
+      &:last-child {
+        flex: 100%;
+        /* stylelint-disable */
+
+        @include media-breakpoint-down(md) {
+          flex: 80%;
+        }
+
+        @include media-breakpoint-down(sm) {
+          flex: 60%;
+        }
+        /* stylelint-enable */
+      }
+    }
+
+    &__input {
+      padding-left: 10px;
+      border: 1px solid $colors-gray-14;
+    }
+
+    &__forget {
+      margin-left: 6px;
+      user-select: none;
+    }
+
+    &__btn {
+      @include button-add(0);
+      font-size: $font-size-small;
+    }
+  }
+}

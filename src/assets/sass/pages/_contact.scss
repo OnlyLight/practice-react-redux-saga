@@ -1,0 +1,121 @@
+// ======================================================
+// Pages :: Contact
+// ======================================================
+
+.section-contact {
+  .breadcrumb-common {
+    margin-bottom: 32px;
+  }
+
+  &__main {
+    font-family: $font-info-contact;
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 46px;
+    color: $colors-black-11;
+    text-transform: uppercase;
+    @include arrow-icon(-31px, 0);
+  }
+
+  &__info {
+    margin-top: 34px;
+    /* stylelint-disable */
+
+    &__detail {
+      display: flex;
+      align-items: baseline;
+      color: $colors-gray-10;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &:first-child {
+        .section-contact__info__text {
+          margin-left: 15px;
+        }
+      }
+
+      &:nth-child(2) {
+        .section-contact__info__text {
+          margin-left: 11px;
+        }
+      }
+
+      &:last-child {
+        .section-contact__info__text {
+          margin-left: 9px;
+        }
+      }
+
+      .section-contact__info__text {
+        display: inline-block;
+        font-size: $font-size-xbase;
+      }
+    }
+    /* stylelint-enable */
+  }
+
+  &__text {
+    display: inline-block;
+    margin-top: 33px;
+    margin-bottom: 11px;
+  }
+
+  &__network {
+    a {
+      color: $colors-gray-11;
+      margin-right: 16px;
+
+      &:hover {
+        color: $colors-yellow-orange-2;
+      }
+    }
+  }
+
+  &__form {
+    margin-top: 62px;
+    /* stylelint-disable */
+
+    &-control {
+      display: flex;
+      flex-wrap: wrap;
+
+      &:last-child {
+        margin-bottom: 120px;
+
+        .section-contact__form-item:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    /* stylelint-enable */
+
+    &-item {
+      flex: 10%;
+
+      &:last-child {
+        flex: 77%;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-input {
+      height: 33px;
+    }
+
+    &-input,
+    &-area {
+      background-color: $colors-gray-12;
+      border: 1px solid $colors-gray-13;
+    }
+
+    &-btn {
+      @include size(79px, 40px);
+      @include button-add(24px);
+      margin-bottom: 0;
+    }
+  }
+}

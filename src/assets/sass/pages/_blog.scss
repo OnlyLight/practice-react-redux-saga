@@ -1,0 +1,44 @@
+// ======================================================
+// Pages :: Blog
+// ======================================================
+
+.section-blog {
+  margin-bottom: 56px;
+
+  &__title {
+    position: relative;
+    margin-bottom: 53px;
+    text-transform: uppercase;
+    @include arrow-icon(-31px, 0);
+  }
+
+  &__wrap-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  &__list {
+    .post {
+      flex: calc(100% / 3);
+      padding: 0 14px;
+      margin-bottom: 35px;
+
+      @include media-breakpoint-down(md) {
+        flex: calc(100% / 2);
+      }
+
+      @include media-breakpoint-down(sm) {
+        flex: calc(100%);
+      }
+
+      &__content-h6 {
+        color: $colors-black-10;
+      }
+
+      &__read {
+        color: $colors-yellow-orange-2;
+      }
+    }
+  }
+}

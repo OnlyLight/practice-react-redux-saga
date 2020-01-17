@@ -1,0 +1,53 @@
+// ======================================================
+// Pages :: Intro
+// ======================================================
+
+.section-intro {
+  .breadcrumb-common {
+    margin-bottom: 25px;
+  }
+
+  &__infomation {
+    margin-bottom: 96px;
+  }
+
+  &__title {
+    position: relative;
+    margin-bottom: 51px;
+    color: $colors-black-11;
+    text-transform: uppercase;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -31px;
+      left: 0;
+      @include size(200px, 20px);
+      background: url('../../images/Home-assets/icon-arrow.png') 0 0 no-repeat;
+    }
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__welcome {
+    color: $colors-black-10;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    @include media-breakpoint-down(sm) {
+      font-size: $font-size-large;
+    }
+  }
+
+  &__paragraph {
+    color: $colors-gray-4;
+
+    @include media-breakpoint-down(sm) {
+      font-size: $font-size-small;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+// ======================================================
+// Layout :: News
+// ======================================================
+
+.post {
+  $this: &;
+  /* stylelint-disable */
+
+  &:hover {
+    #{$this} {
+      &__overlay {
+        &:before,
+        &:after {
+          opacity: 1;
+        }
+      }
+
+      &__content-h6 {
+        color: $colors-yellow-orange-2;
+      }
+    }
+  }
+  /* stylelint-enable */
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 20px;
+  }
+
+  &__read,
+  &__read:hover {
+    color: $colors-gray-8;
+  }
+
+  &__overlay {
+    position: relative;
+    margin-bottom: 26px;
+    overflow: hidden;
+
+    &:before,
+    &:after {
+      opacity: 0;
+      transition: all 400ms;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      right: 0;
+      top: 0;
+      background-color: rgba($colors-white, .4);
+      transform-origin: right top;
+      transform: skewY(-31.5deg);
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      @include square(50px);
+      top: calc(50% - 25px);
+      left: calc(50% - 25px);
+      background: url('../../images/Home-assets/icon-lock.png') 0 0 no-repeat;
+      background-size: cover;
+      border: 0;
+
+      @include media-breakpoint-only(lg) {
+        @include square(30px);
+        top: calc(50% - 15px);
+        left: calc(50% - 15px);
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__content {
+    font-size: $font-size-base;
+
+    &-h6 {
+      color: $colors-black-1;
+      font-size: $font-size-large;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: all 300ms;
+    }
+
+    &-span {
+      font-size: $font-size-small;
+      color: $colors-gray-7;
+    }
+
+    &-p {
+      margin-top: 11px;
+      margin-bottom: 0;
+      color: $colors-gray-4;
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "listItemNewProduct": [
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_1.png",
+      "icon": "icon-sale.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_2.png",
+      "icon": "icon-new.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_3.png",
+      "icon": "icon-hot.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_4.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_1.png",
+      "icon": "icon-sale.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_2.png",
+      "icon": "icon-new.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_3.png",
+      "icon": "icon-hot.png"
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_4.png",
+      "icon": ""
+    }
+  ],
+  "listItemHotSale": [
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_5.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_6.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_7.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_8.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_5.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_6.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_7.png",
+      "icon": ""
+    },
+    {
+      "title": "Rượu vang đà lạt",
+      "imgMain": "wine_8.png",
+      "icon": ""
+    }
+  ],
+  "blogContent": [
+    {
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further-2.png"
+    },
+    {
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further-2.png"
+    }
+  ],
+  "blogCustomer": [
+    {
+      "imgName": "img-cus.png",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ..."
+    },
+    {
+      "imgName": "img-cus.png",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ..."
+    },
+    {
+      "imgName": "img-cus.png",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long ..."
+    }
+  ],
+  "breadcrumbProduct": [
+    { "id": 1, "path": "/", "title": "Trang chủ" },
+    { "id": 1, "path": "/product", "title": "Sản phẩm" },
+    { "id": 1, "path": "", "title": "Rượu vang đỏ" }
+  ],
+  "listItemGird": [
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_1.png", "icon": "" },
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_2.png", "icon": "" },
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_3.png", "icon": "" },
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_4.png", "icon": "" },
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_1.png", "icon": "" },
+    { "id": 1, "title": "Rượu vang đà lạt", "imgMain": "wine_2.png", "icon": "" }
+  ],
+  "listItemList": [
+    {
+      "id": 1,
+      "title": "RƯợu nho năm 1987",
+      "imgName": "wine_6.png",
+      "content": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo."
+    },
+    {
+      "id": 2,
+      "title": "RƯợu nho năm 1987",
+      "imgName": "wine_7.png",
+      "content": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo."
+    },
+    {
+      "id": 3,
+      "title": "RƯợu nho năm 1987",
+      "imgName": "wine_8.png",
+      "content": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo."
+    },
+    {
+      "id": 4,
+      "title": "RƯợu nho năm 1987",
+      "imgName": "wine_6.png",
+      "content": "Một hợp chất có trong rượu vang được gọi là resveratro có khả năng làm tăng tối đa tuổi thọ. Resveratro còn có khả năng ngăn chặn mật độ ôxy hoá của protein béo."
+    }
+  ],
+  "listTag": [
+    { "tag": "Đồng hồ" },
+    { "tag": "Túi" },
+    { "tag": "Phụ kiện" },
+    { "tag": "Giày" },
+    { "tag": "Sandal" },
+    { "tag": "Áo sơ mi" },
+    { "tag": "Nước hoa" }
+  ],
+  "listCategory": [
+    {
+      "title": "RƯỢU NGOẠI",
+      "list": [
+        { "link": "#", "name": "Rượu Chivas (26)" },
+        { "link": "#", "name": "Rượu Chivas (26)" }
+      ]
+    },
+    {
+      "title": "RƯỢU VANG",
+      "list": [
+        { "link": "#", "name": "Rượu Chivas (26)" },
+        { "link": "#", "name": "Rượu Chivas (26)" }
+      ]
+    }
+  ],
+  "listPost": [
+    {
+      "id": 1,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long",
+      "path": "img-info-further-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long",
+      "path": "img-info-further-2.png"
+    },
+    {
+      "id": 6,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long",
+      "path": "img-info-further-2.png"
+    },
+    {
+      "id": 9,
+      "title": "Vang Thăng Long Classic",
+      "content": "Vang nổ Thăng Long có hương vị đặc trưng của sản phẩm lên men tự nhiên từ hoa quả với độ rượu nhẹ, bọt ga đầy trắng mịn. Vang Nổ thăng long tạo cảm giác hương phấn, êm dịu, vui tươi, sản phẩm được đóng chai dung tích 750ml...",
+      "path": "img-info-further.jpg"
+    }
+  ]
+}

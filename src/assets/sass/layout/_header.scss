@@ -1,0 +1,135 @@
+// ======================================================
+// Layout :: Header
+// ======================================================
+
+.header-control {
+  @include media-breakpoint-down(sm) {
+    display: flex;
+    flex-direction: column;
+
+    .carousel {
+      order: 2;
+    }
+  }
+}
+
+.menu-header {
+  &--top {
+    position: absolute;
+    padding: 8px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(white, .1);
+    font-size: $font-size-small;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+
+  &--default {
+    position: static;
+    padding: 8px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(white, .1);
+    font-size: $font-size-small;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    .menu-header__link--regular {
+      color: $colors-gray-4;
+      font-size: $font-size-small;
+
+      &:hover {
+        color: $colors-gray-4;
+      }
+    }
+
+    .menu-header__form-search {
+      counter-reset: $colors-gray-4;
+      font-family: $font-search;
+
+      input,
+      input:focus {
+        color: $colors-black-6;
+      }
+
+      .btn-search {
+        color: $colors-black-6;
+      }
+    }
+  }
+
+  &--bottom {
+    background-color: $colors-black-1;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__category {
+    display: flex;
+    margin-bottom: 0;
+
+    .dash {
+      margin: auto;
+      padding: 0 8px;
+      color: $colors-gray-2;
+
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+  }
+
+  &__link {
+    color: $colors-gray-1;
+  }
+
+  &__form-search {
+    @include media-breakpoint-down(sm) {
+      padding-bottom: 13px;
+    }
+
+    input {
+      min-width: $min-width-form;
+      max-height: $max-height-form;
+      padding-left: 16px;
+      background-color: transparent;
+      font-style: italic;
+      font-size: $font-size-small;
+      border: 0;
+      border-left: 1px solid $colors-white;
+      border-radius: 0;
+
+      @include media-breakpoint-down(lg) {
+        min-width: 0;
+      }
+
+      @include media-breakpoint-down(sm) {
+        width: 85%;
+      }
+
+      &:focus {
+        color: $colors-white;
+        outline: none;
+      }
+    }
+
+    .btn-search {
+      background-color: transparent;
+      color: $colors-white;
+      border: 0;
+    }
+  }
+}

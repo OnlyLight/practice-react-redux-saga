@@ -1,0 +1,124 @@
+// ======================================================
+// Pages :: Cart
+// ======================================================
+
+.section-cart {
+  &__title {
+    position: relative;
+    margin-bottom: 52px;
+    text-transform: uppercase;
+    @include arrow-icon(-31px, 0);
+  }
+
+  &__table,
+  &__row,
+  td {
+    border: 1px solid $colors-black-14;
+    background-color: $colors-gray-12;
+  }
+
+  &__table {
+    width: 100%;
+  }
+
+  &__row {
+    &__title {
+      padding: 18px 0;
+      text-transform: uppercase;
+      text-align: center;
+      white-space: nowrap;
+
+      @include media-breakpoint-down(md) {
+        padding: 21px 12px;
+      }
+    }
+
+    &__img {
+      width: 195px;
+      padding: 14px 0;
+      text-align: center;
+
+      @include media-breakpoint-down(md) {
+        padding: 14px 5px;
+      }
+    }
+
+    &__name,
+    &__price,
+    &__amount,
+    &__remove {
+      text-align: center;
+
+      @include media-breakpoint-down(md) {
+        padding: 12px 20px;
+      }
+    }
+
+    &__name,
+    &__amount {
+      font-size: $font-size-xbase;
+    }
+
+    &__name {
+      text-transform: uppercase;
+    }
+
+    &__amount {
+      input {
+        @include square(30px);
+        background-color: $colors-gray-12;
+        text-align: center;
+        border: 1px solid $colors-black-13;
+      }
+    }
+
+    &__price {
+      color: $colors-yellow-orange-2;
+      font-family: $font-utm;
+      font-size: $font-size-medium;
+    }
+
+    &__remove {
+      font-size: $font-size-xxlarge;
+
+      button {
+        background-color: transparent;
+        border: 0;
+      }
+
+      .fa {
+        color: $colors-black-15;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    margin-top: 29px;
+    margin-bottom: 92px;
+    justify-content: flex-end;
+
+    @media (max-width: 450px) {
+      flex-direction: column;
+    }
+
+    &__btn {
+      @include button-add(0);
+      font-size: $font-size-tiny;
+      /* stylelint-disable */
+
+      @media (max-width: 450px) {
+        width: 100%;
+
+        &:not(:first-child) {
+          margin-top: 10px;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+      /* stylelint-enable */
+    }
+  }
+}

@@ -1,0 +1,38 @@
+// ======================================================
+// Layout :: Breadcrumb
+// ======================================================
+
+.breadcrumb-common {
+  display: flex;
+  margin: 34px 0;
+  // stylelint-disable
+
+  &__item {
+    a {
+      color: $colors-gray-4;
+    }
+
+    &:last-child {
+      a {
+        color: $colors-yellow-orange;
+      }
+    }
+
+    &:not(:last-child) {
+      position: relative;
+      margin-right: 10px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 11px;
+        right: -6px;
+        bottom: 5px;
+        background-color: $colors-black-1;
+        transform: skewX(-15deg);
+      }
+    }
+  }
+  // stylelint-enable
+}
